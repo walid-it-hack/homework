@@ -21,6 +21,7 @@ function App() {
   function handleChange  (e: React.ChangeEvent<HTMLSelectElement>)  {
     const value = e.target.value;
    
+    setdata(students.sort((a, b) => b.averageScore - a.averageScore ));
     
     if (value === 'all') {
       setdata(students);
