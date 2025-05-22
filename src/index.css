@@ -59,6 +59,7 @@ table ,th, td {
   margin-left: 15%;
   color: lightgray;
   font-size: large;
+   word-wrap: break-word;
   
 }
 th{
@@ -88,4 +89,15 @@ p{
   button {
     background-color: #f9f9f9;
   }
+}
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+.container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
 }

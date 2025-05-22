@@ -46,7 +46,7 @@ function App() {
         <option value="2">Level 2</option>
         <option value="3">Level 3</option>
       </select>
-      
+      <div className='container'>
       <table>
        
         <thead>
@@ -66,6 +66,8 @@ function App() {
           ))}
         </tbody>
       </table>
+
+      </div>
     </div>
   );
 }
